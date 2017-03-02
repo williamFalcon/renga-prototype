@@ -8,6 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SFViewController : UIViewController
+@interface SFViewController : UIViewController <UIScrollViewDelegate>
+
+@property (nonatomic) IBOutlet UIScrollView *scrollView;
+@property (nonatomic) IBOutlet UIScrollView *verseScrollView;
+@property (nonatomic) IBOutlet UIImageView *noText;
 
 @end
